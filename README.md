@@ -1,4 +1,4 @@
-# 3D-Metal-Printer
+# 3D Metal Printer Error Detection
 
 Working with Dr. Muhammad Ansari on developing an algorithm model designed to automatically detect errors and halt the printing process of a 3D metal printer.
 
