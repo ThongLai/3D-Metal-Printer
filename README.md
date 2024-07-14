@@ -9,6 +9,12 @@ My primary focus involves processing image labels using Connected Components Ana
 
 These bubbles result from a chemical reaction due to incorrect temperature and other parameters, leading to the formation of large holes in the metal blocks. This compromises their structural integrity, making them brittle and unstable, necessitating the cessation of the printing process to minimize costs.
 
-Version:
+Packages and Version:
 CUDA: 12.1
 CUDNN: 9.0
+Torch: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+pandas, matplotlib, seaborn, requests, pyyaml, tqdm, setuptools, 
+
+
+python detect.py --source "data/images/A20X_7_0266.jpg"  --device 0 --weights "weights/yolov9-c-converted.pt"
